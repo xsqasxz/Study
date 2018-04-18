@@ -92,4 +92,22 @@ public class Apple {
     public void setWeight(Double weight) {
         this.weight = weight;
     }
+
+    /**
+     * 如果是绿色就返回true否则就返回false
+     * @param apple
+     * @return
+     */
+    public static boolean isGreenApple(Apple apple){
+        return "绿色".equals(apple.getColour());
+    }
+
+    /**
+     * 如果重量大于150就返回true否则就返回false
+     * @param apple
+     * @return
+     */
+    public static boolean isHeavyApple(Apple apple){
+        return 50<apple.getWeight();
+    }
 }
