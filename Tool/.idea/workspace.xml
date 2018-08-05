@@ -14,7 +14,71 @@
     <favorites_list name="Tool" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="汉化Ide语音包.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化Ide语音包.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="43" column="60" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="汉化语言包增强版.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化语言包增强版.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTML网络流.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTML网络流1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DomTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/DomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,6 +91,7 @@
     <findStrings>
       <find>file</find>
       <find>replace</find>
+      <find>http://cache.gensee.com/gsgetrecord/record11.gensee.net/gsrecord/3782/upload/2018_04_18/50289231_1524045840</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -34,6 +99,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Tool/汉化Ide语音包.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tool/汉化语言包增强版.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tool/读取html文件.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Tool/HTML网络流.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tool/xrjx/DomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流1.java" />
       </list>
     </option>
   </component>
@@ -60,6 +131,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,24 +167,39 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Tool" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Tool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Tool" type="462c0819:PsiDirectoryNode" />
+              <item name="xrjx" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tool.xrjx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xuesq\Documents\GitHub\Study\Tool\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,24 +213,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="应用程序.HTML网络流1">
+    <configuration name="DomTest" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tool.xrjx.DomTest" />
+      <module name="Tool" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tool.xrjx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HTML网络流" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tool.xrjx.HTML网络流" />
+      <module name="Tool" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tool.xrjx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HTML网络流1" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tool.xrjx.HTML网络流1" />
+      <module name="Tool" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tool.xrjx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="汉化Ide语音包" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tool.汉化Ide语音包" />
       <module name="Tool" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="汉化Ide语音包" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tool.汉化Ide语音包" />
-      <module name="Tool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tool.*" />
+          <option name="PATTERN" value="Tool.xrjx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,7 +311,17 @@
     </configuration>
     <list>
       <item itemvalue="应用程序.汉化Ide语音包" />
+      <item itemvalue="应用程序.HTML网络流" />
+      <item itemvalue="应用程序.DomTest" />
+      <item itemvalue="应用程序.HTML网络流1" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.HTML网络流1" />
+        <item itemvalue="应用程序.HTML网络流" />
+        <item itemvalue="应用程序.DomTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -235,28 +357,30 @@
       <workItem from="1523082075469" duration="1274000" />
       <workItem from="1523774200693" duration="787000" />
       <workItem from="1526307594316" duration="58000" />
+      <workItem from="1533437230336" duration="8438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16263000" />
+    <option name="totallyTimeSpent" value="24701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3297414" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32219827" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.27262932" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="控制板" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989224" visible="true" weight="0.21588486" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989224" visible="true" weight="0.21801706" />
       <window_info id="设计师" order="2" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5010776" side_tool="true" weight="0.2771855" />
@@ -277,7 +401,6 @@
       <window_info anchor="bottom" id="%E8%BF%90%E8%A1%8C" order="8" />
       <window_info anchor="right" id="è°è²æ¿" order="3" />
       <window_info anchor="bottom" id="消息" order="8" weight="0.3297414" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -288,8 +411,9 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="控制板" order="3" />
-      <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Run" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -315,7 +439,6 @@
       <window_info anchor="bottom" id="调试" order="13" weight="0.3297414" />
       <window_info id="设计师" order="6" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -327,7 +450,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -336,55 +459,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/com/baidu/translate/demo/HttpGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="134" column="52" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/百度翻译接口.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化Ide语音包.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/百度翻译接口.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/com/baidu/translate/demo/HttpGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="134" column="52" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化Ide语音包.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/百度翻译接口.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tool/com/baidu/translate/demo/HttpGet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2185">
@@ -623,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar!/org/apache/commons/io/FileUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -672,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化语言包增强版.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tool/百度翻译接口.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -686,10 +746,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/读取html文件.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化语言包增强版.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/record.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/DomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化Ide语音包.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="925">
           <caret line="43" column="60" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/易投经至尊版.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="107" selection-start-line="43" selection-end-line="43" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/易投经精英版.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
         </state>
       </provider>
     </entry>
