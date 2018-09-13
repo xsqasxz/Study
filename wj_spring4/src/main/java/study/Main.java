@@ -10,9 +10,7 @@ import study.service.UserFunctionService;
  */
 public class Main {
     public static void main(String[] s){
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
-        context.register(DiConfig.class);
-        context.refresh();
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DiConfig.class);
         UserFunctionService userFunctionService = context.getBean(UserFunctionService.class);
         System.out.println(userFunctionService.sayHello("我的世界"));
         context.close();

@@ -10,9 +10,9 @@ import study.service.DemoAnnotationService;
  */
 @Service
 public class DemoMethodServicelmpl implements DemoAnnotationService {
+
     @Action(name = "注解式拦截的add操作")
     @Override
     public void add() {
-
     }
 }
