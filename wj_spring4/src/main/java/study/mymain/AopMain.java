@@ -1,10 +1,11 @@
-package study;
+package study.mymain;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import study.config.AopConfig;
 import study.service.DemoAnnotationService;
 
 /**
+ * 切面注解，注入例子
  * @author xueshiqi
  * @since 2018/9/13
  */

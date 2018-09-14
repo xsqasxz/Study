@@ -10,6 +10,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  */
 @Configuration
 @ComponentScan("study")
-@EnableAspectJAutoProxy//开启对注解的烧苗
+@EnableAspectJAutoProxy//开启对注解的扫描
 public class AopConfig {
 }

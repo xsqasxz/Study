@@ -6,7 +6,7 @@ import study.service.FunctionService;
 import study.service.UserFunctionService;
 
 /**
- * 写的注入的例子，这里我们使用注解对 functionService进行注入
+ * 注入bean来使用的类 functionService进行注入
  * @author xueshiqi
  * @since 2018/9/13
  */
