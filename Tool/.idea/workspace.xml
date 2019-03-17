@@ -14,7 +14,7 @@
     <favorites_list name="Tool" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="汉化Ide语音包.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化Ide语音包.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -27,7 +27,7 @@
       <file leaf-file-name="汉化语言包增强版.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化语言包增强版.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
+            <state relative-caret-position="100">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="HTML网络流.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state relative-caret-position="125">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +48,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTML网络流1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="易投经至尊版.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/易投经至尊版.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="752">
+              <caret line="106" column="82" lean-forward="true" selection-start-line="106" selection-start-column="82" selection-end-line="106" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="易投经精英版.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/易投经精英版.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="752">
+              <caret line="179" selection-start-line="179" selection-end-line="179" selection-end-column="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTML网络流1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="375">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="record.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/record.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret column="2001" selection-start-column="2001" selection-end-column="2001" />
             </state>
           </provider>
         </entry>
@@ -60,8 +87,8 @@
       <file leaf-file-name="DomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/DomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="925">
+              <caret line="46" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +99,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
+            <state relative-caret-position="1650">
               <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
@@ -131,8 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -180,6 +205,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,17 +385,22 @@
       <workItem from="1523774200693" duration="787000" />
       <workItem from="1526307594316" duration="58000" />
       <workItem from="1533437230336" duration="8438000" />
+      <workItem from="1533474540683" duration="110000" />
+      <workItem from="1533648673422" duration="1624000" />
+      <workItem from="1533659022493" duration="498000" />
+      <workItem from="1540729426339" duration="27000" />
+      <workItem from="1540738527024" duration="383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24701000" />
+    <option name="totallyTimeSpent" value="27343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3297414" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -380,7 +412,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="控制板" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989224" visible="true" weight="0.21801706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989224" visible="true" weight="0.22867803" />
       <window_info id="设计师" order="2" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5010776" side_tool="true" weight="0.2771855" />
@@ -401,6 +433,7 @@
       <window_info anchor="bottom" id="%E8%BF%90%E8%A1%8C" order="8" />
       <window_info anchor="right" id="è°è²æ¿" order="3" />
       <window_info anchor="bottom" id="消息" order="8" weight="0.3297414" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3297414" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -411,9 +444,8 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="控制板" order="3" />
-      <window_info anchor="bottom" id="Run" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -439,6 +471,7 @@
       <window_info anchor="bottom" id="调试" order="13" weight="0.3297414" />
       <window_info id="设计师" order="6" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -748,21 +781,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
+        <state relative-caret-position="1650">
           <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/读取html文件.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/读取html文件.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Tool/汉化语言包增强版.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
+        <state relative-caret-position="100">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -770,13 +797,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/record.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/DomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="925">
+          <caret line="46" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -790,10 +814,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/record.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret column="2001" selection-start-column="2001" selection-end-column="2001" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state relative-caret-position="125">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -802,18 +840,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/易投经至尊版.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" column="107" selection-start-line="43" selection-end-line="43" selection-end-column="107" />
+        <state relative-caret-position="752">
+          <caret line="106" column="82" lean-forward="true" selection-start-line="106" selection-start-column="82" selection-end-line="106" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/易投经精英版.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tool/xrjx/HTML网络流1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="752">
+          <caret line="179" selection-start-line="179" selection-end-line="179" selection-end-column="120" />
         </state>
       </provider>
     </entry>
