@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fast.solution</groupId>
+    <artifactId>basics</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>pluginunitweb</module>
+        <module>utils</module>
+        <module>pluginunitbackstage</module>
+    </modules>
+    <properties>
+        <jdk.version>1.8</jdk.version>
+        <org.springframework.boot.version>2.0.0.RELEASE</org.springframework.boot.version>
+        <org.apache.httpcomponents.version>4.5.7</org.apache.httpcomponents.version>
+        <com.mysql.jdbc.version>5.1.6</com.mysql.jdbc.version>
+        <com.alibaba.version>1.2.47</com.alibaba.version>
+        <junit.version>4.12</junit.version>
+        <org.junit.jupiter.version>5.0.3</org.junit.jupiter.version>
+    </properties>
+</project>
