@@ -22,8 +22,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="437">
+              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -31,8 +31,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pluginunitweb/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="45" />
+            <state relative-caret-position="350">
+              <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -76,29 +76,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pluginunitbackstage/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListContainer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/ListContainer.java">
+      <file leaf-file-name="WebClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/basics/utils/WebClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="-417">
+              <caret line="79" column="84" selection-start-line="79" selection-start-column="84" selection-end-line="79" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#urlResponse#0;class#WebClient#0" />
+                <element signature="method#doPost#0;class#WebClient#0" />
+                <element signature="method#SendByUrl#0;class#WebClient#0" />
+                <element signature="method#getWebContentByGet#0;class#WebClient#0" />
+                <element signature="method#getWebContentByPost#0;class#WebClient#0" />
+                <element signature="method#tetsPost#0;class#WebClient#0" />
+                <element signature="method#doPostQueryCmd#0;class#WebClient#0" />
+                <element signature="method#sendUrl#0;class#WebClient#0" />
+                <element signature="method#operateParameter#0;class#WebClient#0" />
+                <element signature="method#getParams#0;class#WebClient#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/AClass.java">
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/basics/utils/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="336">
+              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pluginunitbackstage/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pluginunitweb/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="空" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pluginunitbackstage/src/main/java/com/basics/service/空">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="空" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pluginunitweb/src/main/java/com/config/空">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Assertions.class" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/tool/repository/org/junit/jupiter/junit-jupiter-api/5.0.3/junit-jupiter-api-5.0.3.jar!/org/junit/jupiter/api/Assertions.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/basics/utils/UrlUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-164">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -106,19 +162,30 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="532">
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>com.alibaba</find>
-      <find>org.springframework.boot</find>
       <find>odotCore</find>
+      <find>cookie</find>
+      <find>generateParams</find>
+      <find>getParams</find>
+      <find>assertEquals</find>
+      <find>org.springframework.boot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,12 +196,21 @@
       <list>
         <option value="$PROJECT_DIR$/pluginunitweb/src/main/java/com/example/test/security/txt.java" />
         <option value="$PROJECT_DIR$/pluginunitweb/src/main/java/com/security/AClass.java" />
-        <option value="$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/txt.java" />
         <option value="$PROJECT_DIR$/pluginunitweb/src/main/java/com/example/rest/WithholdingTest.java" />
-        <option value="$PROJECT_DIR$/pluginunitweb/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/utils/pom.xml" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/basics/Constants.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/basics/UrlUtils.java" />
+        <option value="$PROJECT_DIR$/utils/src/main/java/com/basics/WebClient.java" />
+        <option value="$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/txt.java" />
+        <option value="$PROJECT_DIR$/utils/src/test/java/com/utils/test/Test.java" />
+        <option value="$PROJECT_DIR$/utils/src/test/java/com/utils/test/TestType.java" />
+        <option value="$PROJECT_DIR$/pluginunitweb/src/test/java/com/pluginunitweb/test/TestType.java" />
+        <option value="$PROJECT_DIR$/pluginunitbackstage/src/test/java/com/pluginunitbackstage/test/TestType.java" />
+        <option value="$PROJECT_DIR$/pluginunitbackstage/src/test/java/com/basics/vackstagetest/TestType.java" />
+        <option value="$PROJECT_DIR$/pluginunitbackstage/src/test/java/com/basics/backstagetest/TestType.java" />
         <option value="$PROJECT_DIR$/pluginunitbackstage/pom.xml" />
+        <option value="$PROJECT_DIR$/pluginunitweb/pom.xml" />
+        <option value="$PROJECT_DIR$/utils/pom.xml" />
       </list>
     </option>
   </component>
@@ -305,6 +381,152 @@
             <path>
               <item name="basics" type="b2602c69:ProjectViewProjectNode" />
               <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitbackstage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitbackstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitbackstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitbackstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitbackstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitbackstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitbackstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitbackstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitbackstage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backstagetest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="pluginunitweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,6 +534,54 @@
               <item name="basics" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,7 +613,15 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.security" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pluginunitbackstage.test" />
+      <recent name="com.pluginunitweb.test" />
+      <recent name="com.basics" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\myjava\basics\pluginunitweb\src\main\resources" />
+      <recent name="G:\myjava\basics\utils\src\main\resources" />
+      <recent name="G:\myjava\basics\pluginunitbackstage\src\main\resources" />
       <recent name="G:\myjava\basics\pluginunitweb\src" />
     </key>
   </component>
@@ -359,9 +637,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="JUnit.TestType.testStyle">
     <configuration default="true" type="Application" factoryName="应用程序">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestType.testStyle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.utils.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.utils.test" />
+      <option name="MAIN_CLASS_NAME" value="com.utils.test.TestType" />
+      <option name="METHOD_NAME" value="testStyle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -461,9 +762,11 @@
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="JUnit.txt" />
       <item itemvalue="JUnit.txt.mergeMapValuesTest" />
+      <item itemvalue="JUnit.TestType.testStyle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestType.testStyle" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.txt.mergeMapValuesTest" />
         <item itemvalue="JUnit.txt" />
@@ -480,7 +783,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553660402006</updated>
-      <workItem from="1553660403461" duration="7753000" />
+      <workItem from="1553660403461" duration="10466000" />
     </task>
     <servers />
   </component>
@@ -491,9 +794,12 @@
     <history-entry file="txt_mergeMapValuesTest - 2019.03.27 at 14h 48m 20s.xml">
       <configuration name="txt.mergeMapValuesTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestType_testStyle - 2019.03.27 at 17h 13m 48s.xml">
+      <configuration name="TestType.testStyle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7753000" />
+    <option name="totallyTimeSpent" value="10466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -514,8 +820,8 @@
       <window_info id="Image Layers" order="0" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3301179" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32976446" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="right" id="控制板" order="0" />
@@ -531,40 +837,6 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="控制板" order="0" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32976446" />
-      <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info id="Image Layers" order="0" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32976446" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32976446" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.32995737" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="设计师" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.3993576" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -607,31 +879,10 @@
         <state relative-caret-position="-342" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/ListContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/AClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pluginunitweb/src/main/java/com/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/txt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="63" lean-forward="true" selection-end-line="55" />
         </state>
       </provider>
     </entry>
@@ -655,33 +906,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluginunitweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="437">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/AClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/basics/utils/UrlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/basics/utils/WebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="79" column="84" selection-start-line="79" selection-start-column="84" selection-end-line="79" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#urlResponse#0;class#WebClient#0" />
+            <element signature="method#doPost#0;class#WebClient#0" />
+            <element signature="method#SendByUrl#0;class#WebClient#0" />
+            <element signature="method#getWebContentByGet#0;class#WebClient#0" />
+            <element signature="method#getWebContentByPost#0;class#WebClient#0" />
+            <element signature="method#tetsPost#0;class#WebClient#0" />
+            <element signature="method#doPostQueryCmd#0;class#WebClient#0" />
+            <element signature="method#sendUrl#0;class#WebClient#0" />
+            <element signature="method#operateParameter#0;class#WebClient#0" />
+            <element signature="method#getParams#0;class#WebClient#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/java/com/basics/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginunitbackstage/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://E:/tool/repository/org/junit/jupiter/junit-jupiter-api/5.0.3/junit-jupiter-api-5.0.3.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/ListContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/utils/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginunitweb/src/test/java/com/security/txt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginunitweb/src/test/java/com/basics/webtest/TestType.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginunitbackstage/src/test/java/com/basics/backstagetest/TestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pluginunitbackstage/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginunitweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/src/test/java/com/basics/utilstest/TestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginunitweb/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginunitbackstage/src/main/java/com/basics/service/空">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluginunitweb/src/main/java/com/config/空">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
