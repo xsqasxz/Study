@@ -17,4 +17,18 @@ public class HelloworldController {
         return "Holle Spring Boot";
     }
 
+    @RequestMapping("/index.html")
+    public String  index(){
+        return "/index";
+    }
+
+    @RequestMapping("/blog.html")
+    public String  blog(){
+        return "/blog";
+    }
+
+    @RequestMapping("/sidebar.html")
+    public String  sidebar(){
+        return "/sidebar";
+    }
 }

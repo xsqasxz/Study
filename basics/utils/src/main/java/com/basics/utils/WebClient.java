@@ -75,7 +75,12 @@ public class WebClient {
     }
 
     /**
-     * get方式
+     * get请求方式
+     * @param urlString 请求url
+     * @param charset 请求解析编码
+     * @param timeout 请求超时时间 毫秒
+     * @return 返回请求页面
+     * @throws IOException
      */
     public static String getWebContentByGet(String urlString, final String charset, int timeout) throws IOException {
         if (urlString == null || urlString.length() == 0) {
@@ -120,7 +125,13 @@ public class WebClient {
     }
 
     /**
-     * post 方式
+     * post请求方式
+     * @param urlString 请求url
+     * @param data 请求data参数
+     * @param charset 请求解析编码
+     * @param timeout 请求超时时间 毫秒
+     * @return 返回请求页面
+     * @throws IOException
      */
     public static String getWebContentByPost(String urlString, String data,final String charset, int timeout) throws IOException {
         if (urlString == null || urlString.length() == 0) {
@@ -150,12 +161,9 @@ public class WebClient {
         connection.setRequestProperty("Accept", "*/*");// text/html
         connection.setConnectTimeout(timeout);
         connection.connect();
-        DataOutputStream out = new DataOutputStream(connection
-                .getOutputStream());
-        // String content = data;//+URLEncoder.encode("中文 ", "utf-8");
-        // out.writeBytes(content);
-        byte[] content = data.getBytes(charset);// +URLEncoder.encode("中文 ",
-        // "utf-8");
+        //封装发送数据
+        DataOutputStream out = new DataOutputStream(connection.getOutputStream());
+        byte[] content = data.getBytes(charset);
         out.write(content);
         out.flush();
         out.close();
@@ -168,8 +176,7 @@ public class WebClient {
             e.printStackTrace();
             return null;
         }
-        BufferedReader reader = new BufferedReader(new InputStreamReader(
-                connection.getInputStream(), charset));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream(), charset));
         String line;
         StringBuffer sb = new StringBuffer();
         while ((line = reader.readLine()) != null) {

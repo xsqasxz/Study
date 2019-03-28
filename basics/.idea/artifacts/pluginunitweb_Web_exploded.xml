@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="pluginunitweb:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pluginunitweb_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="pluginunitweb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pluginunitweb" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
