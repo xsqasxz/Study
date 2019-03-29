@@ -1,0 +1,8 @@
+com\basics\service\impl\SysUserServiceImpl.class
+com\basics\service\SysUserService.class
+com\basics\entity\SysPermissionRole.class
+com\basics\entity\SysUser.class
+com\basics\entity\SysPermission.class
+com\basics\entity\SysRole.class
+com\basics\mapper\SysUserMapper.class
+com\basics\entity\SysRoleUser.class

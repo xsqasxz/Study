@@ -15,12 +15,12 @@
     </modules>
     <properties>
         <jdk.version>1.8</jdk.version>
-        <org.springframework.boot.version>2.0.0.RELEASE</org.springframework.boot.version>
-        <org.apache.httpcomponents.version>4.5.7</org.apache.httpcomponents.version>
-        <com.mysql.jdbc.version>5.1.6</com.mysql.jdbc.version>
-        <com.alibaba.version>1.2.47</com.alibaba.version>
-        <junit.version>4.12</junit.version>
-        <org.junit.jupiter.version>5.0.3</org.junit.jupiter.version>
+        <springframework-boot.version>2.0.0.RELEASE</springframework-boot.version>
+        <fastjson.version>1.2.47</fastjson.version>
         <commons-httpclient.version>3.1</commons-httpclient.version>
+        <mybatis-spring-boot-starter.version>2.0.0</mybatis-spring-boot-starter.version>
+        <mysql-connector-java.version>5.1.6</mysql-connector-java.version>
+        <utils.version>1.0-SNAPSHOT</utils.version>
+        <pluginunitbackstage.version>1.0-SNAPSHOT</pluginunitbackstage.version>
     </properties>
 </project>

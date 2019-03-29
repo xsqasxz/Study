@@ -4,7 +4,7 @@ import com.basics.utils.Constants;
 import com.basics.utils.WebClient;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.io.IOException;
 

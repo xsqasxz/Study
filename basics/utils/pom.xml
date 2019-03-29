@@ -17,16 +17,24 @@
             <version>9.0.8</version>
             <scope>compile</scope>
         </dependency>
-
+        <!--httpclient支持的jar-->
         <dependency>
             <groupId>commons-httpclient</groupId>
             <artifactId>commons-httpclient</artifactId>
             <version>${commons-httpclient.version}</version>
         </dependency>
+        <!-- 热部署配置 -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>${org.junit.jupiter.version}</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>${springframework-boot.version}</version>
+            <optional>true</optional>
+        </dependency>
+        <!--支持测试部分的jar-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${springframework-boot.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
