@@ -38,6 +38,13 @@
             <version>${springframework-boot.version}</version>
             <optional>true</optional>
         </dependency>
+        <!--静态页面模版引擎-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>${springframework-boot.version}</version>
+        </dependency>
+
         <!--支持测试部分的jar-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -52,11 +59,11 @@
             <version>${fastjson.version}</version>
         </dependency>
         <!--自定义pluginunitbackstage的jar-->
-        <dependency>
-            <groupId>fast.solution</groupId>
-            <artifactId>pluginunitbackstage</artifactId>
-            <version>${pluginunitbackstage.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>fast.solution</groupId>-->
+            <!--<artifactId>pluginunitbackstage</artifactId>-->
+            <!--<version>${pluginunitbackstage.version}</version>-->
+        <!--</dependency>-->
         <!--自定义util的jar-->
         <dependency>
             <groupId>fast.solution</groupId>
