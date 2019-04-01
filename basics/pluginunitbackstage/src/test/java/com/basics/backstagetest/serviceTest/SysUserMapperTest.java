@@ -26,10 +26,11 @@ public class SysUserMapperTest {
 
     @Test
     public void testInsert(){
-        sysUserMapper.addSysUser(new SysUser("曹操","cc","ccpassword",true,true,true,true));
-        sysUserMapper.addSysUser(new SysUser("乐进","yj","yjpassword",true,true,true,true));
-        sysUserMapper.addSysUser(new SysUser("李典","ld","ldpassword",true,true,true,true));
-        Assert.assertEquals(3,sysUserMapper.getAll().size());
+//        sysUserMapper.addSysUser(new SysUser("曹操","cc","ccpassword",true,true,true,true));
+//        sysUserMapper.addSysUser(new SysUser("乐进","yj","yjpassword",true,true,true,true));
+//        sysUserMapper.addSysUser(new SysUser("李典","ld","ldpassword",true,true,true,true));
+        System.out.println(sysUserMapper.getSysUserByUserName("cc"));
+//        Assert.assertEquals(3,sysUserMapper.getAll().size());
 //        List<String> usernameList = new ArrayList<>();
 //        usernameList.add("cc");
 //        usernameList.add("yj");
