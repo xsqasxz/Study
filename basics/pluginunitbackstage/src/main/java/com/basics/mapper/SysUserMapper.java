@@ -1,10 +1,8 @@
 package com.basics.mapper;
 
+import com.basics.entity.SysRole;
 import com.basics.entity.SysUser;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -16,12 +14,20 @@ import java.util.List;
 @Mapper
 public interface SysUserMapper {
 
+    /**
+     * 查询全部的用户数据
+     * @return
+     */
     @Select("select * from sys_user")
-//    @Results({
-//            @Result(property = "userSex",  column = "user_sex", javaType = UserSexEnum.class),
-//            @Result(property = "nickName", column = "nick_name")
-//    })
     List<SysUser> getAll();
+
+    /**
+     * 根据角色id查询出对应角色的用户
+     * @param roleId
+     * @return
+     */
+    @Select("select u.* from sys_user u inner join sys_role_user ru on u.id = ru.sys_user_id where ru.sys_role_id = #{roleId}")
+    List<SysUser> getAllByRoleId(@Param("roleId") Integer roleId);
 
     /**
      * 根据用户id进行查询对应的用户信息
@@ -36,8 +42,13 @@ public interface SysUserMapper {
      * @param username
      * @return
      */
-    @Select("select * from sys_user where username = #{username}")
-    SysUser getSysUserByUserName(String username);
+//    一对一使用如下
+//    @Result(property = "address",column = "address_id",one = @One(select = "com.ay.mybatis.dao.AddressMapper.findAddressById"))
+    @Select("select * from sys_user where username =#{username}")
+    @Results({
+            @Result(property = "roles",column = "id",many = @Many(select = "com.basics.mapper.SysRoleMapper.getAllByUserId"))
+    })
+    SysUser getSysUserByUserName(@Param("username") String username);
     /**
      * 添加用户数据
      * @param sysUser
@@ -66,4 +77,6 @@ public interface SysUserMapper {
             "<foreach collection=\"list\" item=\"username\" open=\"(\" close=\")\" separator=\",\">#{username}</foreach>" +
             "</script>"})
     int deleteSysUserByUserName(List<String> list);
+
+
 }

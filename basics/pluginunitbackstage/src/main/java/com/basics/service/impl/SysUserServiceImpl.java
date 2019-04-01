@@ -17,7 +17,8 @@ public class SysUserServiceImpl extends SysUserService {
     private SysUserMapper sysUserMapper;
 
     @Override
-    public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
+    public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
+
         return null;
     }
 }

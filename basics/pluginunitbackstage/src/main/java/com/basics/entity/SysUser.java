@@ -13,7 +13,7 @@ import java.util.Set;
  */
 public class SysUser implements UserDetails {
     //用户表id
-    private int id;
+    private Integer id;
     //用户昵称
     private String nickname;
     //用户名
@@ -105,11 +105,11 @@ public class SysUser implements UserDetails {
                 '}';
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

@@ -7,7 +7,7 @@ package com.basics.entity;
  */
 public class SysPermission {
     //用户权限表id
-    private int id;
+    private Integer id;
     //用户权限名称
     private String name;
     //用户权限描述
@@ -38,11 +38,11 @@ public class SysPermission {
                 '}';
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
