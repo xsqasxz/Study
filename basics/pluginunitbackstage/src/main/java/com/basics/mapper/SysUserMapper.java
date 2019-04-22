@@ -19,6 +19,9 @@ public interface SysUserMapper {
      * @return
      */
     @Select("select * from sys_user")
+    @Results({
+            @Result(property = "roles",column = "id",many = @Many(select = "com.basics.mapper.SysRoleMapper.getAllByUserId"))
+    })
     List<SysUser> getAll();
 
     /**
@@ -35,6 +38,9 @@ public interface SysUserMapper {
      * @return
      */
     @Select("select * from sys_user where id =#{id}")
+    @Results({
+            @Result(property = "roles",column = "id",many = @Many(select = "com.basics.mapper.SysRoleMapper.getAllByUserId"))
+    })
     SysUser getSysUserById(int id);
 
     /**

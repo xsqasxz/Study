@@ -1,11 +1,13 @@
 package com.basics.entity;
 
+import org.springframework.security.core.GrantedAuthority;
+
 /**
  * @author xueshiqi
  * @since 2019/3/29
  * 用户权限表
  */
-public class SysPermission {
+public class SysPermission implements GrantedAuthority {
     //用户权限表id
     private Integer id;
     //用户权限名称
@@ -76,5 +78,10 @@ public class SysPermission {
 
     public void setPid(int pid) {
         this.pid = pid;
+    }
+
+    @Override
+    public String getAuthority() {
+        return name;
     }
 }

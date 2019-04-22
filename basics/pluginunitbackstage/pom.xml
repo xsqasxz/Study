@@ -47,6 +47,12 @@
             <version>${springframework-boot.version}</version>
             <scope>test</scope>
         </dependency>
+        <!--加入日志包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+            <version>${springframework-boot.version}</version>
+        </dependency>
         <!-- 加入mysql自动扫描 Mapper -->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>

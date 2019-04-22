@@ -4,6 +4,7 @@ import com.basics.entity.SysRole;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author xueshiqi
@@ -13,12 +14,21 @@ import java.util.List;
 @Mapper
 public interface SysRoleMapper {
 
+    @Select("select r.* from sys_role r inner join sys_role_user ru on r.id =ru.sys_role_id")
+    @Results({
+            @Result(property = "permissions",column = "id",many = @Many(select = "com.basics.mapper.SysPermissionMapper.getAllByRoleId"))
+    })
+    List<SysRole> findAll();
+
     /**
      * 根据userid查询角色信息
      * @param userId
      * @return
      */
     @Select("select r.* from sys_role r inner join sys_role_user ru on r.id =ru.sys_role_id where ru.sys_user_id = #{userId}")
+    @Results({
+            @Result(property = "permissions",column = "id",many = @Many(select = "com.basics.mapper.SysPermissionMapper.getAllByRoleId"))
+    })
     List<SysRole> getAllByUserId(@Param("userId")Integer userId);
 
     /**
@@ -27,6 +37,9 @@ public interface SysRoleMapper {
      * @return
      */
     @Select("select * from sys_role where id =#{id}")
+    @Results({
+            @Result(property = "permissions",column = "id",many = @Many(select = "com.basics.mapper.SysPermissionMapper.getAllByRoleId"))
+    })
     SysRole getSysRoleById(int id);
 
     /**
@@ -35,6 +48,9 @@ public interface SysRoleMapper {
      * @return
      */
     @Select("select * from sys_role where name =#{name}")
+    @Results({
+            @Result(property = "permissions",column = "id",many = @Many(select = "com.basics.mapper.SysPermissionMapper.getAllByRoleId"))
+    })
     SysRole getSysRoleByName(@Param("name") String name);
 
     /**
@@ -54,5 +70,6 @@ public interface SysRoleMapper {
             "<foreach collection=\"list\" item=\"id\" open=\"(\" close=\")\" separator=\",\">#{id}</foreach>" +
             "</script>"})
     int deleteSysRoleByIds(List<Integer> list);
+
 
 }

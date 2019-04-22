@@ -1,6 +1,10 @@
 package com.basics.entity;
 
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.util.CollectionUtils;
+
+import java.util.Collection;
+import java.util.Set;
 
 /**
  * @author xueshiqi
@@ -12,6 +16,9 @@ public class SysRole implements GrantedAuthority {
     private Integer id;
     //用户角色名称
     private String name;
+
+    //与项目角色表一对多关系
+    private Set<SysPermission> permissions;
 
     public SysRole() {
     }
@@ -42,6 +49,19 @@ public class SysRole implements GrantedAuthority {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Set<SysPermission> getPermissions() {
+        return permissions;
+    }
+
+    public void setPermissions(Set<SysPermission> permissions) {
+        this.permissions = permissions;
+    }
+
+
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return permissions;
     }
 
     @Override
