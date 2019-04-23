@@ -3,6 +3,9 @@ CREATE TABLE `sys_user` (
   `nickname` varchar(64) DEFAULT NULL COMMENT '用户昵称',
   `username` varchar(64) DEFAULT NULL COMMENT '用户登录名',
   `password` varchar(255) DEFAULT NULL COMMENT '用户登录密码',
+  `accountNonExpired` tinyint(1) DEFAULT NULL COMMENT '账号是否未过期',
+  `accountNonLocked` tinyint(1) DEFAULT NULL COMMENT '账号是否未锁定',
+  `credentialsNonExpired` tinyint(1) DEFAULT NULL COMMENT '账号凭证是否未过期',
   `enabled` tinyint(1) DEFAULT NULL COMMENT '是否有效 0 有效 1 无效',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户表';

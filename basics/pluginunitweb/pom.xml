@@ -23,7 +23,6 @@
             </plugin>
         </plugins>
     </build>
-
     <dependencies>
         <!-- 添加对web的支持 -->
         <dependency>
@@ -45,6 +44,31 @@
             <version>${springframework-boot.version}</version>
         </dependency>
 
+        <!--添加对 security的支持-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>${springframework-boot.version}</version>
+        </dependency>
+        <!--加入日志包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+            <version>${springframework-boot.version}</version>
+        </dependency>
+        <!-- 加入mysql自动扫描 Mapper -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis-spring-boot-starter.version}</version>
+        </dependency>
+        <!-- 加入mysql的驱动-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
+        </dependency>
+
         <!--支持测试部分的jar-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -60,9 +84,9 @@
         </dependency>
         <!--自定义pluginunitbackstage的jar-->
         <!--<dependency>-->
-            <!--<groupId>fast.solution</groupId>-->
-            <!--<artifactId>pluginunitbackstage</artifactId>-->
-            <!--<version>${pluginunitbackstage.version}</version>-->
+        <!--<groupId>fast.solution</groupId>-->
+        <!--<artifactId>pluginunitbackstage</artifactId>-->
+        <!--<version>${pluginunitbackstage.version}</version>-->
         <!--</dependency>-->
         <!--自定义util的jar-->
         <dependency>
