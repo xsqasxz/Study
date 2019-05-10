@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HelloworldController {
 
+    @RequestMapping("/login.html")
+    public String  login(){
+        return "/login";
+    }
+
     @RequestMapping("/sayhello.html")
     public @ResponseBody String say(){
         return "Holle Spring Boot";

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
 <head lang="en">
   <meta charset="UTF-8">
   <title>Login Page | Amaze UI Example</title>
@@ -44,12 +44,12 @@
     <br>
     <br>
 
-    <form method="post" class="am-form">
-      <label for="email">邮箱:</label>
-      <input type="email" name="" id="email" value="">
+    <form th:action="@{/login}" method="post">
+      <label for="username">邮箱:</label>
+      <input type="text" name="username" id="username" value="">
       <br>
       <label for="password">密码:</label>
-      <input type="password" name="" id="password" value="">
+      <input type="password" name="password" id="password" value="">
       <br>
       <label for="remember-me">
         <input id="remember-me" type="checkbox">

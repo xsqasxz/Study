@@ -20,6 +20,7 @@ public interface SysUserMapper {
      */
     @Select("select * from sys_user")
     @Results({
+            @Result(property = "id",column = "id"),
             @Result(property = "roles",column = "id",many = @Many(select = "com.basics.mapper.SysRoleMapper.getAllByUserId"))
     })
     List<SysUser> getAll();
@@ -39,6 +40,7 @@ public interface SysUserMapper {
      */
     @Select("select * from sys_user where id =#{id}")
     @Results({
+            @Result(property = "id",column = "id"),
             @Result(property = "roles",column = "id",many = @Many(select = "com.basics.mapper.SysRoleMapper.getAllByUserId"))
     })
     SysUser getSysUserById(int id);
@@ -52,6 +54,7 @@ public interface SysUserMapper {
 //    @Result(property = "address",column = "address_id",one = @One(select = "com.ay.mybatis.dao.AddressMapper.findAddressById"))
     @Select("select * from sys_user where username =#{username}")
     @Results({
+            @Result(property = "id",column = "id"),
             @Result(property = "roles",column = "id",many = @Many(select = "com.basics.mapper.SysRoleMapper.getAllByUserId"))
     })
     SysUser getSysUserByUserName(@Param("username") String username);

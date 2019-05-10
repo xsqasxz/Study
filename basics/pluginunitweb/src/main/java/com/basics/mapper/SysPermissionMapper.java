@@ -16,6 +16,7 @@ public interface SysPermissionMapper {
 
     @Select("select * from sys_permission")
     @Results({
+            @Result(property = "id",column = "id"),
             @Result(property = "roles",column = "id",many = @Many(select = "com.basics.mapper.SysRoleMapper.getAllByUserId"))
     })
     List<SysUser> getAll();
@@ -25,7 +26,7 @@ public interface SysPermissionMapper {
      * @param roleId
      * @return
      */
-    @Select("select p.* from sys_permission p inner join sys_permission_role pr on p.id =pr.sys_permission_id where ru.sys_role_id = #{roleId}")
+    @Select("select p.* from sys_permission p inner join sys_permission_role pr on p.id =pr.sys_permission_id where pr.sys_role_id = #{roleId}")
     List<SysPermission> getAllByRoleId(@Param("roleId")Integer roleId);
 
     /**
